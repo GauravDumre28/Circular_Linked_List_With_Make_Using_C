@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+cdll_delete_begin	cdll_delete_begin.c	/^Record *cdll_delete_begin (Record *node)$/;"	f
+cdll_delete_end	cdll_delete_end.c	/^Record *cdll_delete_end (Record *node)$/;"	f
+cdll_delete_mid	cdll_delete_mid.c	/^Record *cdll_delete_mid (Record *node)$/;"	f
+cdll_delete_pos	cdll_delete_pos.c	/^Record *cdll_delete_pos (Record *node)$/;"	f
+cdll_display	cdll_display.c	/^Record *cdll_display (Record *node)$/;"	f
+cdll_free_node	cdll_free_node.c	/^Record *cdll_free_node (Record *node)$/;"	f
+cdll_insert_begin	cdll_insert_begin.c	/^Record *cdll_insert_begin (Record *node)$/;"	f
+cdll_insert_data	cdll_insert_data.c	/^int cdll_insert_data (Record *data)$/;"	f
+cdll_insert_end	cdll_insert_end.c	/^Record *cdll_insert_end (Record *node)$/;"	f
+cdll_insert_mid	cdll_insert_mid.c	/^Record *cdll_insert_mid (Record *node)$/;"	f
+cdll_insert_pos	cdll_insert_pos.c	/^Record *cdll_insert_pos (Record *node)$/;"	f
+cdll_switch_case	cdll_switch_case.c	/^void *cdll_switch_case ()$/;"	f
+count_node	count_node.c	/^int count_node (Record *d_node)$/;"	f
+create_node	create_node.c	/^Record *create_node ()$/;"	f
+main	cdll_main.c	/^int main ()$/;"	f
+position	pos_value.c	/^int position (Record *node)$/;"	f
+stoint	StrtoInt.c	/^int stoint (char *string, unsigned int *number)$/;"	f
+switch_menu	switch_menu.c	/^void switch_menu ()$/;"	f
