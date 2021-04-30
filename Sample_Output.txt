@@ -1,0 +1,524 @@
+gaurav@gaurav:~/Circular_Linked _List$ make
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_end.o source/cdll_insert_end.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_begin.o source/cdll_insert_begin.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_main.o source/cdll_main.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_delete_mid.o source/cdll_delete_mid.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_data.o source/cdll_insert_data.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/StrtoInt.o source/StrtoInt.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_switch_case.o source/cdll_switch_case.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/count_node.o source/count_node.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_display.o source/cdll_display.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_pos.o source/cdll_insert_pos.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_delete_begin.o source/cdll_delete_begin.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_mid.o source/cdll_insert_mid.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/create_node.o source/create_node.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_free_node.o source/cdll_free_node.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/switch_menu.o source/switch_menu.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_delete_end.o source/cdll_delete_end.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_delete_pos.o source/cdll_delete_pos.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/pos_value.o source/pos_value.c
+gcc -I./header -Wall -Werror -g -gdwarf-2 -o executable/Executable object/cdll_insert_end.o object/cdll_insert_begin.o object/cdll_main.o object/cdll_delete_mid.o object/cdll_insert_data.o object/StrtoInt.o object/cdll_switch_case.o object/count_node.o object/cdll_display.o object/cdll_insert_pos.o object/cdll_delete_begin.o object/cdll_insert_mid.o object/create_node.o object/cdll_free_node.o object/switch_menu.o object/cdll_delete_end.o object/cdll_delete_pos.o object/pos_value.o
+
+gaurav@gaurav:~/Circular_Linked _List$ make run
+././executable/Executable
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 1
+
+Enter ID : 15
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 15
+Next = 0x55d84188aac0
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 1
+
+Enter ID : 25
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-2 : 15
+Next = 0x55d84188aae0
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 1
+
+Enter ID : 35
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 35
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab00
+N-2 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-3 : 15
+Next = 0x55d84188ab00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 4
+
+Enter ID : 45
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 35
+Next = 0x55d84188ab20
+
+Prev = 0x55d84188ab00
+N-2 : 45
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab20
+N-3 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-4 : 15
+Next = 0x55d84188ab00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 2
+
+Enter ID : 55
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188ab40
+N-1 : 35
+Next = 0x55d84188ab20
+
+Prev = 0x55d84188ab00
+N-2 : 45
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab20
+N-3 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-4 : 15
+Next = 0x55d84188ab40
+
+Prev = 0x55d84188aac0
+N-5 : 55
+Next = 0x55d84188ab00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 3
+
+Enter Position : 4
+
+Enter ID : 65
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188ab40
+N-1 : 35
+Next = 0x55d84188ab20
+
+Prev = 0x55d84188ab00
+N-2 : 45
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab20
+N-3 : 25
+Next = 0x55d84188ab60
+
+Prev = 0x55d84188aae0
+N-4 : 65
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188ab60
+N-5 : 15
+Next = 0x55d84188ab40
+
+Prev = 0x55d84188aac0
+N-6 : 55
+Next = 0x55d84188ab00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 4
+
+Enter ID : 75
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188ab40
+N-1 : 35
+Next = 0x55d84188ab20
+
+Prev = 0x55d84188ab00
+N-2 : 45
+Next = 0x55d84188ab80
+
+Prev = 0x55d84188ab20
+N-3 : 75
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab80
+N-4 : 25
+Next = 0x55d84188ab60
+
+Prev = 0x55d84188aae0
+N-5 : 65
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188ab60
+N-6 : 15
+Next = 0x55d84188ab40
+
+Prev = 0x55d84188aac0
+N-7 : 55
+Next = 0x55d84188ab00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 5
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188ab40
+N-1 : 45
+Next = 0x55d84188ab80
+
+Prev = 0x55d84188ab20
+N-2 : 75
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab80
+N-3 : 25
+Next = 0x55d84188ab60
+
+Prev = 0x55d84188aae0
+N-4 : 65
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188ab60
+N-5 : 15
+Next = 0x55d84188ab40
+
+Prev = 0x55d84188aac0
+N-6 : 55
+Next = 0x55d84188ab20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 6
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 45
+Next = 0x55d84188ab80
+
+Prev = 0x55d84188ab20
+N-2 : 75
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab80
+N-3 : 25
+Next = 0x55d84188ab60
+
+Prev = 0x55d84188aae0
+N-4 : 65
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188ab60
+N-5 : 15
+Next = 0x55d84188ab20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 7
+
+Enter Position : 4
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 45
+Next = 0x55d84188ab80
+
+Prev = 0x55d84188ab20
+N-2 : 75
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab80
+N-3 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-4 : 15
+Next = 0x55d84188ab20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 8
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 45
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab20
+N-2 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-3 : 15
+Next = 0x55d84188ab20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 9
+
+
+-- Linked List Asc --
+
+Prev = 0x55d84188aac0
+N-1 : 45
+Next = 0x55d84188aae0
+
+Prev = 0x55d84188ab20
+N-2 : 25
+Next = 0x55d84188aac0
+
+Prev = 0x55d84188aae0
+N-3 : 15
+Next = 0x55d84188ab20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Display Linked List
+10. Exit
+
+Enter Choice : 10
+
+------------------------------------------
+--> Memory is Free
+
+	-- Exit --
+------------------------------------------
+
