@@ -1,4 +1,4 @@
-gaurav@gaurav:~/Circular_Linked _List$ make
+-@-:~/Circular_Linked _List$ make
 gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_end.o source/cdll_insert_end.c
 gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_insert_begin.o source/cdll_insert_begin.c
 gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_main.o source/cdll_main.c
@@ -19,7 +19,7 @@ gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/cdll_delete_pos.o source/
 gcc -I./header -Wall -Werror -g -gdwarf-2 -c -o object/pos_value.o source/pos_value.c
 gcc -I./header -Wall -Werror -g -gdwarf-2 -o executable/Executable object/cdll_insert_end.o object/cdll_insert_begin.o object/cdll_main.o object/cdll_delete_mid.o object/cdll_insert_data.o object/StrtoInt.o object/cdll_switch_case.o object/count_node.o object/cdll_display.o object/cdll_insert_pos.o object/cdll_delete_begin.o object/cdll_insert_mid.o object/create_node.o object/cdll_free_node.o object/switch_menu.o object/cdll_delete_end.o object/cdll_delete_pos.o object/pos_value.o
 
-gaurav@gaurav:~/Circular_Linked _List$ make run
+-@-:~/Circular_Linked _List$ make run
 ././executable/Executable
 
 
