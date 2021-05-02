@@ -30,7 +30,7 @@ C concepts included in Circular Linked List project,
     - Function Pointer
     - String Manipulation
     - Structure
-    - Memory Management (malloc and free)
+    - Memory Management
     - Storage Class
     - Preprocessor
     - Control and Conditional Statements
