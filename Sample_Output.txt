@@ -1,0 +1,855 @@
+-@-:~/Circular_Linked _List$ make
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_reverse_list.o Source_Files/cdll_reverse_list.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_insert_end.o Source_Files/cdll_insert_end.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_display_nodes.o Source_Files/cdll_display_nodes.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_insert_begin.o Source_Files/cdll_insert_begin.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_main.o Source_Files/cdll_main.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_delete_mid.o Source_Files/cdll_delete_mid.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_insert_data.o Source_Files/cdll_insert_data.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/StrtoInt.o Source_Files/StrtoInt.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_switch_case.o Source_Files/cdll_switch_case.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/count_node.o Source_Files/count_node.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_insert_pos.o Source_Files/cdll_insert_pos.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_search_node.o Source_Files/cdll_search_node.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/print_node_details.o Source_Files/print_node_details.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_delete_begin.o Source_Files/cdll_delete_begin.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_insert_mid.o Source_Files/cdll_insert_mid.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/integer_input.o Source_Files/integer_input.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/create_node.o Source_Files/create_node.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_free_node.o Source_Files/cdll_free_node.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/switch_menu.o Source_Files/switch_menu.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_delete_end.o Source_Files/cdll_delete_end.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/cdll_delete_pos.o Source_Files/cdll_delete_pos.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -c -o Object_Files/pos_value.o Source_Files/pos_value.c
+gcc -I./Header_File -Wall -Werror -g -gdwarf-2 -o Executable_File/Circular_Linked_List_Executable Object_Files/cdll_reverse_list.o Object_Files/cdll_insert_end.o Object_Files/cdll_display_nodes.o Object_Files/cdll_insert_begin.o Object_Files/cdll_main.o Object_Files/cdll_delete_mid.o Object_Files/cdll_insert_data.o Object_Files/StrtoInt.o Object_Files/cdll_switch_case.o Object_Files/count_node.o Object_Files/cdll_insert_pos.o Object_Files/cdll_search_node.o Object_Files/print_node_details.o Object_Files/cdll_delete_begin.o Object_Files/cdll_insert_mid.o Object_Files/integer_input.o Object_Files/create_node.o Object_Files/cdll_free_node.o Object_Files/switch_menu.o Object_Files/cdll_delete_end.o Object_Files/cdll_delete_pos.o Object_Files/pos_value.o
+
+-@-:~/Circular_Linked _List$ make run
+././Executable_File/Circular_Linked_List_Executable
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 25
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 25
+Next = 0x55df85c1cac0
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 35
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 2 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cae0
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 45
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 45
+Next = 0x55df85c1cae0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb00
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cb00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 2
+
+Enter ID : 55
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cb20
+---- ID : 45
+Next = 0x55df85c1cae0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb00
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cb20
+
+-- Node: 4 --
+Prev = 0x55df85c1cac0
+---- ID : 55
+Next = 0x55df85c1cb00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 3
+
+Enter Position : 2
+
+Enter ID : 65
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cb20
+---- ID : 45
+Next = 0x55df85c1cb40
+
+-- Node: 2 --
+Prev = 0x55df85c1cb00
+---- ID : 65
+Next = 0x55df85c1cae0
+
+-- Node: 3 --
+Prev = 0x55df85c1cb40
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cb20
+
+-- Node: 5 --
+Prev = 0x55df85c1cac0
+---- ID : 55
+Next = 0x55df85c1cb00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 4
+
+Enter ID : 75
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cb20
+---- ID : 45
+Next = 0x55df85c1cb40
+
+-- Node: 2 --
+Prev = 0x55df85c1cb00
+---- ID : 65
+Next = 0x55df85c1cb60
+
+-- Node: 3 --
+Prev = 0x55df85c1cb40
+---- ID : 75
+Next = 0x55df85c1cae0
+
+-- Node: 4 --
+Prev = 0x55df85c1cb60
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 5 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cb20
+
+-- Node: 6 --
+Prev = 0x55df85c1cac0
+---- ID : 55
+Next = 0x55df85c1cb00
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 5
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cb20
+---- ID : 65
+Next = 0x55df85c1cb60
+
+-- Node: 2 --
+Prev = 0x55df85c1cb40
+---- ID : 75
+Next = 0x55df85c1cae0
+
+-- Node: 3 --
+Prev = 0x55df85c1cb60
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cb20
+
+-- Node: 5 --
+Prev = 0x55df85c1cac0
+---- ID : 55
+Next = 0x55df85c1cb40
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 6
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 65
+Next = 0x55df85c1cb60
+
+-- Node: 2 --
+Prev = 0x55df85c1cb40
+---- ID : 75
+Next = 0x55df85c1cae0
+
+-- Node: 3 --
+Prev = 0x55df85c1cb60
+---- ID : 35
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cae0
+---- ID : 25
+Next = 0x55df85c1cb40
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 7
+
+Enter Position : 3
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 65
+Next = 0x55df85c1cb60
+
+-- Node: 2 --
+Prev = 0x55df85c1cb40
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 3 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cb40
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 85
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 85
+Next = 0x55df85c1cb40
+
+-- Node: 2 --
+Prev = 0x55df85c1cae0
+---- ID : 65
+Next = 0x55df85c1cb60
+
+-- Node: 3 --
+Prev = 0x55df85c1cb40
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cae0
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 95
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cae0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb20
+---- ID : 85
+Next = 0x55df85c1cb40
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 65
+Next = 0x55df85c1cb60
+
+-- Node: 4 --
+Prev = 0x55df85c1cb40
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 5 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cb20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 8
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cae0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb20
+---- ID : 85
+Next = 0x55df85c1cb60
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cb20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 10
+
+
+-- Nodes in Circular Linked List Reverse--
+
+-- Node: 4 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cb20
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb20
+---- ID : 85
+Next = 0x55df85c1cb60
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cae0
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cae0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb20
+---- ID : 85
+Next = 0x55df85c1cb60
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cb20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 11
+
+ Enter Node to Search: 95
+
+
+--> Node Present at Position: 1
+
+-- Details --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cae0
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cae0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb20
+---- ID : 85
+Next = 0x55df85c1cb60
+
+-- Node: 3 --
+Prev = 0x55df85c1cae0
+---- ID : 75
+Next = 0x55df85c1cac0
+
+-- Node: 4 --
+Prev = 0x55df85c1cb60
+---- ID : 25
+Next = 0x55df85c1cb20
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 9
+
+--> All Nodes are Deleted
+
+--> List is Empty
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 15
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 15
+Next = 0x55df85c1cac0
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 1
+
+Enter ID : 95
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cac0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb60
+---- ID : 15
+Next = 0x55df85c1cb60
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 14
+
+
+-- Nodes in Circular Linked List --
+
+-- Node: 1 --
+Prev = 0x55df85c1cac0
+---- ID : 95
+Next = 0x55df85c1cac0
+
+-- Node: 2 --
+Prev = 0x55df85c1cb60
+---- ID : 15
+Next = 0x55df85c1cb60
+
+--> Success : List Updated
+------------------------------------------
+
+
+------------------------------------------
+
+1. Insert Node at Beginning
+2. Insert Node at End
+3. Insert Node at Position
+4. Insert Node in the Middle
+5. Delete Node at Beginning
+6. Delete Node at End
+7. Delete Node at Position
+8. Delete Node from the Middle
+9. Delete All Nodes
+10. Reverse Linked List
+11. Search a Node
+14. Display Linked List
+15. Exit
+
+Enter Choice : 15
+
+--> All Nodes are Deleted
+
+------------------------------------------
+--> Memory is Free
+
+	-- Exit --
+------------------------------------------
