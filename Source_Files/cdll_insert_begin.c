@@ -1,7 +1,7 @@
 #include "header.h"
 
 // Function to Insert Node at Beginning
-Record *cdll_insert_begin (Record *node)
+Record *insert_begin (Record *node)
 {
     // Calling Function to Creat New Node
     Record *temp;
@@ -21,8 +21,9 @@ Record *cdll_insert_begin (Record *node)
         node = temp;
     }
 
-    // Function to Insert Data into Node
-    ret = cdll_insert_data (temp);
+    // Calling Function to Insert Data into Node
+    print ("\nEnter ID : ");
+    ret = insert_data (temp);
 
     if (1 != ret) {
         free (temp);

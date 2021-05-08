@@ -1,7 +1,7 @@
 #include "header.h"
 
-// Function to Delete Node at Position
-Record *cdll_delete_pos (Record *node)
+// Function to Delete Node at Position 
+Record *delete_pos (Record *node)
 {
     if (NULL != node) {
         Record *temp = node;
@@ -13,11 +13,11 @@ Record *cdll_delete_pos (Record *node)
 
         // Deleting Node if Present on Position
         if (1 == pos) {
-            node = cdll_delete_begin (node);
+            node = delete_begin (node);
         } else {
             // If it is Last Node
             if (node == temp->next) {
-                node = cdll_delete_end (node);
+                node = delete_end (node);
             }
             
             while (1) {

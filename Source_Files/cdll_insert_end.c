@@ -1,7 +1,7 @@
 #include "header.h"
 
 // Function to Insert Node at End
-Record *cdll_insert_end (Record *node)
+Record *insert_end (Record *node)
 {
     // Creating Copy of Node
     Record *nodecpy = node;
@@ -13,7 +13,7 @@ Record *cdll_insert_end (Record *node)
     int ret = 0;
     
     if (NULL == nodecpy) {
-        node = cdll_insert_begin (nodecpy);
+        node = insert_begin (nodecpy);
     } else {
         while (1) {
             if (nodecpy->next == node) {
@@ -26,8 +26,9 @@ Record *cdll_insert_end (Record *node)
             nodecpy = nodecpy->next;
         }
 
-        // Function to Insert Data into Node
-        ret = cdll_insert_data (temp);
+        // Calling Function to Insert Data into Node
+        print ("\nEnter ID : ");
+        ret = insert_data (temp);
 
         if (1 != ret) {
             free (temp);

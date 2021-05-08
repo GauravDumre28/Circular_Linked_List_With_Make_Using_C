@@ -25,43 +25,49 @@ typedef struct Records {
 Record *create_node ();
 
 //Function for Switch Case
-void *cdll_switch_case ();
+void *switch_case ();
 
 //Function to Inseert Data into Node
-int cdll_insert_data (Record *);
+int insert_data (Record *);
 
 //Function to Display All Nodes
-Record *cdll_display (Record *);
+Record *display_nodes (Record *);
 
 //Function to Free All Nodes
-Record *cdll_free_node (Record *);
+Record *free_nodes (Record *);
 
 //Function to Insert Node at the Beginning
-Record *cdll_insert_begin (Record *);
+Record *insert_begin (Record *);
 
 //Function to Insert Node at the End
-Record *cdll_insert_end (Record *);
+Record *insert_end (Record *);
 
 //Function to Insert Node at Any Position
-Record *cdll_insert_pos (Record *);
+Record *insert_pos (Record *);
 
 //Function to Insert Node at the Middle
-Record *cdll_insert_mid (Record *);
+Record *insert_mid (Record *);
 
 //Function to Delete Node at the Beginning
-Record *cdll_delete_begin (Record *);
+Record *delete_begin (Record *);
 
-//Function to the Delete Node at the End
-Record *cdll_delete_end (Record *);
+//Function to Delete Node at the End
+Record *delete_end (Record *);
 
-//Function to the Delete Node at Any Position
-Record *cdll_delete_pos (Record *);
+//Function to Delete Node at Any Position
+Record *delete_pos (Record *);
 
-//Function to the Delete Node from the Mdddle
-Record *cdll_delete_mid (Record *);
+//Function to Delete Node from the Mdddle
+Record *delete_mid (Record *);
+
+//Function to Reverse Linked List
+Record *reverse_list (Record *);
+
+//Function to Reverse Linked List
+Record *search_node (Record *);
 
 //Function to Convert String to Integer
-int stoint (char *, unsigned int *);
+int string_to_int (char *, unsigned int *);
 
 //Function to Count Number of Nodes in Linked List
 int count_node (Record *);
@@ -70,6 +76,12 @@ int count_node (Record *);
 int position (Record *);
 
 //Function to Print Menu
-void switch_menu ();
+void switch_menu (void);
+
+// Function to Take Integer as Input
+int integer_input (void);
+
+// Function to Display Node Details 
+void print_node (Record *);
 
 #endif

@@ -1,11 +1,12 @@
 #include "header.h"
 
 // Function to Free All Present Nodes
-Record *cdll_free_node (Record *node)
+Record *free_nodes (Record *node)
 {
     while (NULL != node) {
-        node = cdll_delete_begin (node);
+        node = delete_begin (node);
     }
+    print ("\n--> All Nodes are Deleted\n");
 
     return node;
 }

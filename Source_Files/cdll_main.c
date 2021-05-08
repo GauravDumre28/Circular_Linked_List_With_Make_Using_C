@@ -10,11 +10,11 @@ int main ()
 
     while (1) {
         // Calling Function for Swich Case Scenario for User
-        func = cdll_switch_case ();
+        func = switch_case ();
         
         if (NULL == func) {
             // Calling Function to Free the Previously Allocated Memory
-            head = cdll_free_node (head);
+            head = free_nodes (head);
             
             print ("\n------------------------------------------\n");
             
@@ -31,8 +31,8 @@ int main ()
         } else {
             // Calling Function Using Function Pointer
             head = (* func) (head);
-            if (func != cdll_display){
-                head = cdll_display (head);
+            if (func != display_nodes){
+                head = display_nodes (head);
             }
             
             // Cheaking Return Value of Head

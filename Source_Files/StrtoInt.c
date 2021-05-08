@@ -2,7 +2,7 @@
 // Return '0' on Failure
 
 // Function to Convert String to Integer
-int stoint (char *string, unsigned int *number)
+int string_to_int (char *string, unsigned int *number)
 {
 	int flag = 1;
 

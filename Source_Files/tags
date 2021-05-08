@@ -4,21 +4,25 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-cdll_delete_begin	cdll_delete_begin.c	/^Record *cdll_delete_begin (Record *node)$/;"	f
-cdll_delete_end	cdll_delete_end.c	/^Record *cdll_delete_end (Record *node)$/;"	f
-cdll_delete_mid	cdll_delete_mid.c	/^Record *cdll_delete_mid (Record *node)$/;"	f
-cdll_delete_pos	cdll_delete_pos.c	/^Record *cdll_delete_pos (Record *node)$/;"	f
-cdll_display	cdll_display.c	/^Record *cdll_display (Record *node)$/;"	f
-cdll_free_node	cdll_free_node.c	/^Record *cdll_free_node (Record *node)$/;"	f
-cdll_insert_begin	cdll_insert_begin.c	/^Record *cdll_insert_begin (Record *node)$/;"	f
-cdll_insert_data	cdll_insert_data.c	/^int cdll_insert_data (Record *data)$/;"	f
-cdll_insert_end	cdll_insert_end.c	/^Record *cdll_insert_end (Record *node)$/;"	f
-cdll_insert_mid	cdll_insert_mid.c	/^Record *cdll_insert_mid (Record *node)$/;"	f
-cdll_insert_pos	cdll_insert_pos.c	/^Record *cdll_insert_pos (Record *node)$/;"	f
-cdll_switch_case	cdll_switch_case.c	/^void *cdll_switch_case ()$/;"	f
-count_node	count_node.c	/^int count_node (Record *d_node)$/;"	f
+count_node	count_node.c	/^int count_node (Record *node)$/;"	f
 create_node	create_node.c	/^Record *create_node ()$/;"	f
+delete_begin	cdll_delete_begin.c	/^Record *delete_begin (Record *node)$/;"	f
+delete_end	cdll_delete_end.c	/^Record *delete_end (Record *node)$/;"	f
+delete_mid	cdll_delete_mid.c	/^Record *delete_mid (Record *node)$/;"	f
+delete_pos	cdll_delete_pos.c	/^Record *delete_pos (Record *node)$/;"	f
+display_nodes	cdll_display_nodes.c	/^Record *display_nodes (Record *node)$/;"	f
+free_nodes	cdll_free_node.c	/^Record *free_nodes (Record *node)$/;"	f
+insert_begin	cdll_insert_begin.c	/^Record *insert_begin (Record *node)$/;"	f
+insert_data	cdll_insert_data.c	/^int insert_data (Record *data)$/;"	f
+insert_end	cdll_insert_end.c	/^Record *insert_end (Record *node)$/;"	f
+insert_mid	cdll_insert_mid.c	/^Record *insert_mid (Record *node)$/;"	f
+insert_pos	cdll_insert_pos.c	/^Record *insert_pos (Record *node)$/;"	f
+integer_input	integer_input.c	/^int integer_input (void)$/;"	f
 main	cdll_main.c	/^int main ()$/;"	f
 position	pos_value.c	/^int position (Record *node)$/;"	f
-stoint	StrtoInt.c	/^int stoint (char *string, unsigned int *number)$/;"	f
+print_node	print_node_details.c	/^void print_node (Record *node)$/;"	f
+reverse_list	cdll_reverse_list.c	/^Record *reverse_list (Record *node)$/;"	f
+search_node	cdll_search_node.c	/^Record *search_node (Record *node)$/;"	f
+string_to_int	StrtoInt.c	/^int string_to_int (char *string, unsigned int *number)$/;"	f
+switch_case	cdll_switch_case.c	/^void *switch_case ()$/;"	f
 switch_menu	switch_menu.c	/^void switch_menu ()$/;"	f

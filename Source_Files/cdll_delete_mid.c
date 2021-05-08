@@ -1,7 +1,7 @@
 #include "header.h"
 
 // Function to Delete Node from Middle
-Record *cdll_delete_mid (Record *node)
+Record *delete_mid (Record *node)
 {
     if (NULL != node) {
         Record *temp = node;
@@ -21,10 +21,10 @@ Record *cdll_delete_mid (Record *node)
 
         // Deleting Node in the Middle
         if (1 == mid) {
-            node = cdll_delete_begin (node);
+            node = delete_begin (node);
         } else {
             if (node == temp->next) {
-                node = cdll_delete_end (node);
+                node = delete_end (node);
             }
             
             while (1) {

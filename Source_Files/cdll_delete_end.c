@@ -1,7 +1,7 @@
 #include "header.h"
 
 // Function to Delete Node at Beginning
-Record *cdll_delete_end (Record *node)
+Record *delete_end (Record *node)
 {
     Record *temp = node;
 
@@ -9,7 +9,7 @@ Record *cdll_delete_end (Record *node)
     if (NULL != node) {
         // Calling delete_begin(), if 1st Node
         if (node == node->next) {
-            node = cdll_delete_begin (node);
+            node = delete_begin (node);
         }
         
         while (1) {

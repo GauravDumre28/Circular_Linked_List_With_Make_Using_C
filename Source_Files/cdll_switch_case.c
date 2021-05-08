@@ -1,7 +1,7 @@
 #include "header.h"
 
 // Function for Switch Case
-void *cdll_switch_case ()
+void *switch_case ()
 {
     unsigned int choice;
     int ret;
@@ -20,7 +20,7 @@ void *cdll_switch_case ()
         }
 
         // Calling Function to Validate the Users Input 
-        ret = stoint (str, &choice);
+        ret = string_to_int (str, &choice);
         __fpurge (stdin);
 
         if ((1 != ret) || (0 == choice)) {
@@ -32,48 +32,68 @@ void *cdll_switch_case ()
         switch (choice) {
             case 1:
                 // Returning Address of insert_begin() Function
-                return cdll_insert_begin;
+                return insert_begin;
             
             case 2:
                 // Returning Address of insert_end() Function
-                return cdll_insert_end;
+                return insert_end;
             
             case 3:
                 // Returning Address of insert_pos() Function
-                return cdll_insert_pos;
+                return insert_pos;
             
             case 4:
                 // Returning Address of insert_pos() Function
-                return cdll_insert_mid;
+                return insert_mid;
 
             case 5:
                 // Returning Address of delete_begin() Function
-                return cdll_delete_begin;
+                return delete_begin;
             
             case 6:
                 // Returning Address of delete_end() Function
-                return cdll_delete_end;
+                return delete_end;
             
             case 7:
                 // Returning Address of delete_pos() Function
-                return cdll_delete_pos;
+                return delete_pos;
             
             case 8:
                 // Returning Address of insert_pos() Function
-                return cdll_delete_mid;
-
+                return delete_mid;
+            
             case 9:
+                // Returning Address of insert_pos() Function
+                return free_nodes;
+            
+            case 10:
+                // Returning Address of delete_end() Function
+                return reverse_list;
+            
+            case 11:
+                // Returning Address of insert_pos() Function
+                return search_node;
+            
+            /*case 12:
+                // Returning Address of delete_pos() Function
+                return cdll_sort_ascending;
+            
+            case 13:
+                // Returning Address of insert_pos() Function
+                return cdll_sort_descending; */
+
+            case 14:
                 // Returning Address of display() Function
-                return cdll_display;
+                return display_nodes;
 
             default:
-                if (10 == choice) {
+                if (15 == choice) {
                     return NULL;
                 } else {
                     print ("\n-> Enter Correct Choice\n");
                 }
         }
-    } while (choice != 10);
+    } while (choice != 15);
 
     return NULL;
 }

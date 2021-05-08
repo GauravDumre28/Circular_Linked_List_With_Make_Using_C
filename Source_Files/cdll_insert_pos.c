@@ -1,7 +1,7 @@
 #include "header.h"
 
 // Function to Insert Node at End
-Record *cdll_insert_pos (Record *node)
+Record *insert_pos (Record *node)
 {
     if (NULL == node) {
         return NULL;
@@ -22,7 +22,7 @@ Record *cdll_insert_pos (Record *node)
     pos = position (node);
     
     if (1 == pos) {
-        node = cdll_insert_begin (nodecpy);
+        node = insert_begin (nodecpy);
         return node;
     } else {
         while (1) {
@@ -39,8 +39,9 @@ Record *cdll_insert_pos (Record *node)
         }
     }
 
-    // Function to Insert Data into Node
-    ret = cdll_insert_data (temp);
+    // Calling Function to Insert Data into Node
+    print ("\nEnter ID : ");
+    ret = insert_data (temp);
 
     if (1 != ret) {
         free (temp);
