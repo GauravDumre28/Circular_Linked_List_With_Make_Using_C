@@ -10,7 +10,12 @@ Circular linked list program for inserting and deleting nodes from the linked li
     6. Delete Node at End
     7. Delete Node at Position
     8. Delete Node from the Middle
-    9. Display Linked List
+    9. Delete All Nodes 
+    10. Reverse Linked List 
+    11. Search a Node 
+    12. Sort Linked List in Ascending Order (In Progress)
+    13. Sort Linked List in Descending Order (In Progress)
+    14. Display Linked List
 
 Project is being organized in folder structure where 'Header_File' has 'header.h', 'Source_Files' has all source files, 'Object_Files' has all object files, 'Executable File' has executable.
 
