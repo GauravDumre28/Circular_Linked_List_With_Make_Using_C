@@ -14,8 +14,6 @@ void switch_menu ()
     print ("\n9. Delete All Nodes");
     print ("\n10. Reverse Linked List");
     print ("\n11. Search a Node");
-    // print ("\n12. Sort Linked List in Ascending Order");
-    // print ("\n13. Sort Linked List in Descending Order");
     print ("\n14. Display Linked List");
     print ("\n15. Exit");
     print ("\n\nEnter Choice : ");
