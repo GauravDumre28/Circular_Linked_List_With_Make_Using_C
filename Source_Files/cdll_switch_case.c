@@ -74,14 +74,6 @@ void *switch_case ()
                 // Returning Address of insert_pos() Function
                 return search_node;
             
-            /*case 12:
-                // Returning Address of delete_pos() Function
-                return cdll_sort_ascending;
-            
-            case 13:
-                // Returning Address of insert_pos() Function
-                return cdll_sort_descending; */
-
             case 14:
                 // Returning Address of display() Function
                 return display_nodes;
